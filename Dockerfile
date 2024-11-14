@@ -1,6 +1,5 @@
 # Usar la imagen de Node.js como base
 FROM node:20 AS build
-
 # Definir la carpeta de trabajo
 WORKDIR /app
 
