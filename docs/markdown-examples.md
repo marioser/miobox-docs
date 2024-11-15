@@ -1,6 +1,6 @@
 # Markdown Extension Examples
 
-This page demonstrates some of the built-in markdown extensions provided by VitePress2 y desplegado en docker 34.
+This page demonstrates some of the built-in markdown extensions provided by VitePress y desplegado en docker.
 
 ## Syntax Highlighting
 
