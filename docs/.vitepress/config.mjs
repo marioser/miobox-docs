@@ -10,7 +10,7 @@ export default defineConfig({
     search: {
       provider: 'local'
     },
-    logo: '/icono.svg',
+    logo: '/public/icono.svg',
     // https://vitepress.dev/reference/default-theme-config#navbar
     // https://vitepress.dev/reference/default-theme-config
     nav: [
