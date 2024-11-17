@@ -58,6 +58,7 @@ export default defineConfig({
             { text: 'Protocolos', link: '/comunicaciones/index#protocolos' },
             { text: 'Tag', link: '/comunicaciones/index#tag' },
             { text: 'Parámetros de la conexión', link: '/comunicaciones/index#parametros-de-la-conexion' },
+            { text: 'Tareas', link: '/comunicaciones/tareas' }
           ]},
           { text: 'Análisis', link: '/analisis/index' },
           { text: 'Seguridad', link: '/seguridad/index' },
