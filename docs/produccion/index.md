@@ -133,3 +133,4 @@ Haga clic sobre el botón expandir ![expandir](./assets/images/expandir.png) par
 Al finalizar, obtendrá algo como esto:
 
 ![crear_receta](./assets/images/crea_receta.png)
+
