@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Documentación
-      link: /objetivo
+      link: /introduccion/objetivo
     - theme: alt
       text: Soporte
       link: /

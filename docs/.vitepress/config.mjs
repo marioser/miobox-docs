@@ -3,12 +3,12 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "MIOBOX Docs",
-  description: "Configuracion y Usos",
+  description: "Configuración y Usos",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Inicio', link: '/' },
-      { text: 'Documentación', link: '/objetivo' }
+      { text: 'Documentación', link: '/introduccion/objetivo' }
     ],
 
     sidebar: [
