@@ -2,9 +2,16 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  lang: 'es-ES',
   title: "MIOBOX Docs",
   description: "Configuración y Usos",
+  ignoreDeadLinks: true,
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
+    logo: '/Icono.svg',
+    // https://vitepress.dev/reference/default-theme-config#navbar
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Inicio', link: '/' },
@@ -46,16 +53,21 @@ export default defineConfig({
               { text: 'Detalle del modulo', link: '/planeacion/#detalles-del-modulo' }
             ]
            },
-          { text: 'Comunicaciones', link: '/comunicaciones/index' },
-          { text: 'Análisis', link: '/' },
-          { text: 'Seguridad', link: '/' },
+          { text: 'Comunicaciones', link: '/comunicaciones/index' ,
+          items: [
+            { text: 'Protocolos', link: '/comunicaciones/index#protocolos' },
+            { text: 'Tag', link: '/comunicaciones/index#tag' },
+            { text: 'Parámetros de la conexión', link: '/comunicaciones/index#parametros-de-la-conexion' },
+          ]},
+          { text: 'Análisis', link: '/analisis/index' },
+          { text: 'Seguridad', link: '/seguridad/index' },
           { text: 'Configuracion', link: '/' },
         ]
       },{
       text: 'Soporte',
       items: [
         { 
-          text: 'Generar Ticket', link:'/produccion/index',}]
+          text: 'Generar Ticket', link:'/soporte/index',}]
     }
     ],
 

@@ -14,7 +14,7 @@ hero:
       link: /introduccion/objetivo
     - theme: alt
       text: Soporte
-      link: /
+      link: 'https://sgsolucionesing.atlassian.net/servicedesk/customer/portal/3'
 
 # features:
 #   - title: Feature A

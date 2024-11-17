@@ -1,3 +1,10 @@
+---
+prev: false
+next:
+  text: 'Comunicaciones'
+  link: '/comunicaciones/index'
+---
+
 # Módulo de Planeación  
 
 ## Objetivo del Módulo  

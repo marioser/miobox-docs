@@ -1,3 +1,10 @@
+---
+prev: false
+next:
+  text: 'Módulos de la aplicación'
+  link: '/produccion/index'
+---
+
 ## Primeros pasos
 
 Para iniciar sesión en **MIOBOX**, generalmente se debe proporcionar las siguientes credenciales de acceso:

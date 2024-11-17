@@ -1,3 +1,9 @@
+---
+prev: false
+next:
+  text: 'Planeación'
+  link: '/planeacion/index'
+---
 # Módulo de Producción
 
 El módulo de producción incluye los componentes necesarios para la creación de los registros base que utiliza un sistema de producción. Este sistema se basa en líneas de producción que emplean materiales provenientes de diferentes ubicaciones para elaborar uno o más productos, los cuales están definidos en una receta.

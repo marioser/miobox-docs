@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 141.18 156.01">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #d3d0cf;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-miterlimit: 10;
+        stroke-width: 9px;
+      }
+
+      .cls-1, .cls-4 {
+        fill: #d3d0cf;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #0070ac;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #0070ac;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+
+      .cls-6 {
+        fill: #0070ab;
+      }
+    </style>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <g>
+      <line class="cls-1" x1="80.44" y1="144.95" x2="80.44" y2="78.01"/>
+      <line class="cls-1" x1="80.44" y1="77.67" x2="80.44" y2="10.73"/>
+      <line class="cls-1" x1="77.67" y1="78.01" x2="10.73" y2="78.01"/>
+      <line class="cls-2" x1="30.68" y1="128.72" x2="30.68" y2="28.95"/>
+      <line class="cls-2" x1="130.45" y1="128.72" x2="130.45" y2="28.95"/>
+      <line class="cls-3" x1="130.45" y1="28.95" x2="80.44" y2="78.01"/>
+      <line class="cls-3" x1="30.68" y1="28.95" x2="80.44" y2="78.01"/>
+      <g>
+        <circle class="cls-4" cx="80.44" cy="10.73" r="10.73"/>
+        <circle class="cls-5" cx="80.44" cy="10.73" r="6.76"/>
+      </g>
+      <g>
+        <circle class="cls-6" cx="80.44" cy="77.67" r="10.73"/>
+        <circle class="cls-5" cx="80.44" cy="77.67" r="6.76"/>
+      </g>
+      <g>
+        <circle class="cls-6" cx="130.45" cy="28.95" r="10.73"/>
+        <circle class="cls-5" cx="130.45" cy="28.95" r="6.76"/>
+      </g>
+      <g>
+        <circle class="cls-6" cx="30.68" cy="28.95" r="10.73"/>
+        <circle class="cls-5" cx="30.68" cy="28.95" r="6.76"/>
+      </g>
+      <g>
+        <circle class="cls-4" cx="80.44" cy="145.28" r="10.73"/>
+        <circle class="cls-5" cx="80.44" cy="145.28" r="6.76"/>
+      </g>
+      <g>
+        <circle class="cls-4" cx="130.45" cy="128.72" r="10.73"/>
+        <circle class="cls-5" cx="130.45" cy="128.72" r="6.76"/>
+      </g>
+      <g>
+        <circle class="cls-4" cx="30.68" cy="128.72" r="10.73"/>
+        <circle class="cls-5" cx="30.68" cy="128.72" r="6.76"/>
+      </g>
+      <g>
+        <circle class="cls-4" cx="10.73" cy="77.67" r="10.73"/>
+        <circle class="cls-5" cx="10.73" cy="77.67" r="6.76"/>
+      </g>
+    </g>
+  </g>
+</svg>
