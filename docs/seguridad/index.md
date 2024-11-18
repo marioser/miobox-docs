@@ -3,8 +3,8 @@ prev:
   text: 'Analisis'
   link: '/Analisis/index'
 next:
-  text: 'Soporte'
-  link: '/Soporte/index'
+  text: 'API'
+  link: '/operations/index'
 ---
 # Seguridad  
 

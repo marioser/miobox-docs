@@ -1,8 +1,8 @@
 ---
 prev: False
 next:
-  text: 'Generar Ticker'
-  link: 'https://sgsolucionesing.atlassian.net/servicedesk/customer/portal/3'
+  text: 'Soporte'
+  link: '/soporte/index'
 ---
 
 # Endpoints de la API Transport 
