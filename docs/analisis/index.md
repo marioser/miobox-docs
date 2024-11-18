@@ -24,7 +24,7 @@ Una vez que active el módulo de análisis, podrá acceder a los paneles de aná
 *Por defecto, podrá encontrar un panel demo. Esto no siempre indica que cuenta con el módulo de análisis activo, ya que el módulo demo no permite la edición o creación de nuevos paneles de visualización.*  
 :::  
 
-### Pasos para Enlazar un Panel de Visualización  
+## Pasos para enlazar un panel de visualización  
 
 1. Acceda al componente Dashboard.  
 2. Agregue un nuevo enlace a un Dashboard mediante **+ Nuevo**.  
@@ -37,7 +37,7 @@ Una vez que active el módulo de análisis, podrá acceder a los paneles de aná
 
 ![Dashboard](../analisis/assets/images/Dashboard.png)  
 
-### Visualizar el Dashboard  
+## Visualizar el dashboard  
 
 Una vez agregado el panel, puede acceder al Dashboard desde la opción inicial del menú de navegación.  
 

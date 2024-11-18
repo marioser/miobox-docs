@@ -1,7 +1,26 @@
 import { defineConfig } from 'vitepress'
+import { theme, useSidebar, useOpenapi } from 'vitepress-openapi'
+
+import spec from '../public/openapi.json' assert { type: 'json' }
+
+const sidebar = useSidebar({ 
+  spec,
+  // Optionally, you can specify a link prefix for all generated sidebar items.
+  linkPrefix: '/operations/',
+})
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  async enhanceApp({ app, router, siteData }) {
+    // Set the OpenAPI specification.
+    const openapi = useOpenapi({
+        spec,
+    })
+
+    // Use the theme.
+    theme.enhanceApp({ app, openapi })
+},
+
   lang: 'es-ES',
   title: "MIOBOX Docs",
   description: "Configuración y Usos",
@@ -60,18 +79,34 @@ export default defineConfig({
             { text: 'Parámetros de la conexión', link: '/comunicaciones/index#parametros-de-la-conexion' },
             { text: 'Tareas', link: '/comunicaciones/tareas' }
           ]},
-          { text: 'Análisis', link: '/analisis/index' },
-          { text: 'Seguridad', link: '/seguridad/index' },
+          { text: 'Análisis', link: '/analisis/index',
+            items: [
+              { text: 'Dashboard', link: '/analisis/#dashboard' },
+              { text: 'Nuevo Dashboard', link: '/analisis/#pasos-para-enlazar-un-panel-de-visualizacion' }
+            ],
+           },
+          { text: 'Seguridad', link: '/seguridad/index',
+            items: [
+              { text: 'Roles', link: '/seguridad/#crear-editar-o-eliminar-roles' },
+              { text: 'Usuarios', link: '/seguridad/#crear-editar-o-eliminar-usuarios' }
+            ],
+          },
           { text: 'Configuracion', link: '/' },
         ]
-      },{
-      text: 'Soporte',
-      items: [
+      },
+      {
+        text: 'API',
+        items: [
+        { 
+          text: 'Operaciones', link:'/operations/index',}]
+      },
+      {
+        text: 'Soporte',
+        items: [
         { 
           text: 'Generar Ticket', link:'/soporte/index',}]
-    }
-    ],
-
+      },
+  ],
     socialLinks: [
       { icon: 'github', link: '/' }
     ]

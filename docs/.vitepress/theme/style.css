@@ -137,3 +137,54 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+/* estilos.css */  
+
+.endpoint-container {  
+  border: 1px solid #e0e0e0;  
+  border-radius: 8px;  
+  padding: 16px;  
+  margin: 16px 0;  
+  background-color: #f9f9f9;  
+}  
+
+.endpoint-title {  
+  font-size: 1.5em;  
+  color: #333;  
+  margin: 0 0 10px;  
+}  
+
+.method-url {  
+  font-size: 1.1em;  
+  color: #007bff;  
+  margin-bottom: 8px;  
+}  
+
+.table {  
+  width: 100%;  
+  border-collapse: collapse;  
+  margin: 16px 0;  
+}  
+
+.table th,  
+.table td {  
+  border: 1px solid #ddd;  
+  padding: 8px;  
+}  
+
+.table th {  
+  background-color: #f2f2f2;  
+  text-align: left;  
+}  
+
+.code-block {  
+  background-color: #282C34;  
+  color: #white;  
+  border-radius: 4px;  
+  padding: 10px;  
+  overflow-x: auto;  
+  font-family: monospace;  
+}  
+
+.status-codes {  
+  margin-top: 16px;  
+}  
