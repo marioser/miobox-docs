@@ -45,4 +45,4 @@ Una vez agregado el panel, puede acceder al Dashboard desde la opción inicial d
 
 Una vez que acceda, podrá seleccionar el Dashboard que desea visualizar y acceder a sus opciones.  
 
-![Mostrar Dashboard](../analisis/assets/images/mostrar_dashboard.png)  
+![Mostrar Dashboard](../analisis/assets/images/mostrar_dashboard.png)
