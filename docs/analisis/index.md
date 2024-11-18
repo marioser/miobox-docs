@@ -4,7 +4,7 @@ prev:
   link: '/comunicaciones/tareas'
 next:
   text: 'Seguridad'
-  link: '/Seguridad/index'
+  link: '/seguridad/index'
 ---
 # Análisis  
 
