@@ -4,10 +4,9 @@ layout: home
 
 hero:
   name: "MIOBOX Docs"
-  text: "
-  Informacion general y modos de uso.
+  text: "Información general y modos de uso.
   "
-  tagline: Aplicación web diseñada para centralizar y optimizar la información proveniente de los dispositivos industriales en las empresas. 
+  tagline: Centralizar, relaciona y optimiza la información desde dispositivos industriales para su integración con sistemas de información empresarial. 
   actions:
     - theme: brand
       text: Documentación
@@ -16,12 +15,12 @@ hero:
       text: Soporte
       link: 'https://sgsolucionesing.atlassian.net/servicedesk/customer/portal/3'
 
-# features:
-#   - title: Feature A
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature B
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature C
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-# ---
+features:
+  - title: Documentación
+    details: La documentación contiene información general sobre las configuraciones de la aplicación.
+  - title: API Operaciones
+    details: Información para la integración con sistemas de información empresarial.
+  - title: Soporte
+    details: Solución y atención de incidencias de la aplicación
+---
 
