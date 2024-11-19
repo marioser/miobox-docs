@@ -87,12 +87,12 @@ export default defineConfig({
         { 
           text: 'Generar Ticket', link:'/soporte/index',}]
       },
-      {
-        text: 'Avanzado',
-        items: [
-        { 
-          text: 'Proxy Reversible', link:'/avanzada/despliegue/index',}]
-      },
+      // {
+      //   text: 'Avanzado',
+      //   items: [
+      //   { 
+      //     text: 'Proxy Reversible', link:'/avanzada/despliegue/index',}]
+      // },
   ],
     socialLinks: [
       { icon: 'github', link: '/' }

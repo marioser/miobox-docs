@@ -1,4 +1,4 @@
-# Resumen de Configuración de CORS en Nginx Proxy Reverso
+# Configuración de CORS en Nginx Proxy Reverso
 
 ## 1. Configuración de CORS en Nginx Proxy Reverso
 
